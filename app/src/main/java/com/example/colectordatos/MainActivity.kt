@@ -6,7 +6,6 @@ import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.activity.ComponentActivity
-import com.example.colectordatos.ui.theme.SQLite
 
 class MainActivity : ComponentActivity() {
     var txtid: EditText?=null
