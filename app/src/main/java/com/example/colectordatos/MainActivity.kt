@@ -55,7 +55,32 @@ class MainActivity : ComponentActivity() {
         }else{
             Toast.makeText(this, "Debe rellenar todos los campos", Toast.LENGTH_LONG).show()
         }
+        baseDatos.close()
     }
 
+    fun buscar(view: View){
+        val conexion = SQLite(this, "Colector de Datos", null, 1)
 
+        val baseDatos = conexion.writableDatabase
+
+        val id = txtid?.text.toString()
+        if(id.isEmpty() == false){
+            val fila=baseDatos.rawQuery("select nombre, edad, telefono, ciudad from persona where id= '$id'", null)
+            if(fila.moveToFirst() == true){
+                txtnombre?.setText(fila.getString(0))
+                txtedad?.setText(fila.getString(1))
+                txttelefono?.setText(fila.getString(2))
+                txtciudad?.setText(fila.getString(3))
+
+                baseDatos.close()
+            }else{
+                txtnombre?.setText(" ")
+                txtedad?.setText(" ")
+                txttelefono?.setText(" ")
+                txtciudad?.setText(" ")
+
+                Toast.makeText(this, "Registro no encontrado", Toast.LENGTH_LONG).show()
+            }
+        }
+    }
 }
