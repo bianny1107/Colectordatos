@@ -108,4 +108,33 @@ class MainActivity : ComponentActivity() {
             Toast.makeText(this, "Debe rellenar todos los campos", Toast.LENGTH_LONG).show()
         }
     }
+
+    fun modificar(view: View){
+        val conexion = SQLite(this, "Colector de Datos", null, 1)
+        val baseDatos = conexion.writableDatabase
+
+        val id = txtid?.text.toString()
+        val nombre = txtnombre?.text.toString()
+        val edad = txtedad?.text.toString()
+        val telefono = txttelefono?.text.toString()
+        val ciudad = txtciudad?.text.toString()
+
+        if(!id.isEmpty() && !nombre.isEmpty() && !edad.isEmpty() && !telefono.isEmpty() && !ciudad.isEmpty()){
+            var registro = ContentValues()
+            registro.put("nombre", nombre)
+            registro.put("edad", edad)
+            registro.put("telefono", telefono)
+            registro.put("ciudad", ciudad)
+
+            val cant=baseDatos.update("persona", registro, "id='$id'", null)
+
+            if(cant>0){
+                Toast.makeText(this, "Registro modificado exitosamente", Toast.LENGTH_LONG).show()
+            }else{
+                Toast.makeText(this, "Registro no encotrado", Toast.LENGTH_LONG).show()
+            }
+        }else{
+            Toast.makeText(this, "Todos los campos deben ser rellenados", Toast.LENGTH_LONG).show()
+        }
+    }
 }
