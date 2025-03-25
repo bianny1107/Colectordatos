@@ -83,4 +83,29 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+
+    fun eliminar(view: View){
+        val conexion = SQLite(this, "Colector de Datos", null, 1)
+        val baseDatos = conexion.writableDatabase
+
+        val id = txtid?.text.toString()
+        if(id.isEmpty() == false){
+            val cant = baseDatos.delete("persona", "id = '"+id+"'", null)
+
+            if(cant > 0){
+                Toast.makeText(this, "Individuo eliminado de manera exitosa",Toast.LENGTH_LONG).show()
+            }else{
+                Toast.makeText(this, "Individuo no encontrado",Toast.LENGTH_LONG).show()
+            }
+
+            txtid?.setText(" ")
+            txtnombre?.setText(" ")
+            txtedad?.setText(" ")
+            txttelefono?.setText(" ")
+            txtciudad?.setText(" ")
+
+        }else{
+            Toast.makeText(this, "Debe rellenar todos los campos", Toast.LENGTH_LONG).show()
+        }
+    }
 }
