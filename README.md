@@ -19,8 +19,7 @@ El objetivo de este ejercicio es poner en práctica los conocimientos adquiridos
 ![XML](https://img.shields.io/badge/XML-FF6600?style=for-the-badge&logo=xml&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 
-## 📱 Interfaz 
-
+## 📱 Interfaz
 ## ⚙️ Funcionamiento
 ### Función insertar
 ### Función buscar
