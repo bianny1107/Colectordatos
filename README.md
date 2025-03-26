@@ -20,6 +20,7 @@ El objetivo de este ejercicio es poner en práctica los conocimientos adquiridos
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 
 ## 📱 Interfaz
+![Descripcion](images/interfaz.png)
 ## ⚙️ Funcionamiento
 ### Función insertar
 ### Función buscar
