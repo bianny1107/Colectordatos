@@ -2,10 +2,10 @@
 <h2>Índice</h2>
 
 + [Descripción del proyecto](https://github.com/bianny1107/Colectordatos/blob/master/README.md#-descripci%C3%B3n-del-proyecto) <br>
-+ [Tecnologías utiizadas](tecnologías_utilizadas) <br>
-+ [Interfaz](interfaz) <br>
-+ [Funcionamiento](funcionamiento) <br>
-+ [Autoría](autoría) <br><br>
++ [Tecnologías utiizadas](https://github.com/bianny1107/Colectordatos/blob/master/README.md#%EF%B8%8F-tecnolog%C3%ADas-utilizadas) <br>
++ [Interfaz](https://github.com/bianny1107/Colectordatos/blob/master/README.md#-interfaz) <br>
++ [Funcionamiento](https://github.com/bianny1107/Colectordatos/blob/master/README.md#%EF%B8%8F-funcionamiento) <br>
++ [Autoría](https://github.com/bianny1107/Colectordatos/blob/master/README.md#autor%C3%ADa) <br><br>
 
 ## 💭 Descripción del proyecto</h2>
 <p>
