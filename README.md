@@ -20,9 +20,32 @@ El objetivo de este ejercicio es poner en práctica los conocimientos adquiridos
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
 
 ## 📱 Interfaz
-![Descripcion](images/interfaz.png)
+<p>A continuación, se presenta la interfaz de usuario de la aplicación de recolección de datos.</p>
+
+![Interfaz](https://github.com/bianny1107/Colectordatos/blob/master/app/images/insertar.png)
+
 ## ⚙️ Funcionamiento
 ### Función insertar
+<p>La primera función es la función insertar, representada en el botón con el símbolo de más. A través de esta función será posible insertar y almacenar la data del individuo en la base de datos. <br><br>
+Los pasos para insertar data son: <br>
+  1. Insertar toda la información del individuo en los lugares correspondientes.<br>
+  2. Hacer click en el botón de insertar.
+</p>
+
+![Insertar](https://github.com/bianny1107/Colectordatos/blob/master/app/images/insertar.png)
+
+<br>
+<p>Al hacer click en el botón, aparecerá el siguiente mensaje:</p>
+
+![Mensaje insertar](https://github.com/bianny1107/Colectordatos/blob/master/app/images/mensajeinsertar.png)
+
+<br>
+<p>En esta imagen, se muestra cómo luce la base de datos después de haber ingresado la información de varios individuos.</p>
+
+![Base de datos](https://github.com/bianny1107/Colectordatos/blob/master/app/images/basedatos.png)
+
+<p>Es de suma importancia colocar toda la información dentro de cada campo, de lo contrario, el sistema lanzará el siguiente mensaje:</p>
+
 ### Función buscar
 <b>Base de datos</b>
 ### Función eliminar
