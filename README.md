@@ -1,7 +1,7 @@
 <h1 align = "center"> <em> Recolector de datos </em> </h1>
 <h2>Índice</h2>
 
-+ [Descripción del proyecto](descripción-del-proyecto) <br>
++ [Descripción del proyecto](https://github.com/bianny1107/Colectordatos/blob/master/README.md#-descripci%C3%B3n-del-proyecto) <br>
 + [Tecnologías utiizadas](tecnologías_utilizadas) <br>
 + [Interfaz](interfaz) <br>
 + [Funcionamiento](funcionamiento) <br>
@@ -30,7 +30,7 @@ El objetivo de este ejercicio es poner en práctica los conocimientos adquiridos
 
 ## ⚙️ Funcionamiento
 ### Función insertar
-<p>La primera función es la función insertar, representada en el botón con el símbolo de más. A través de esta función será posible insertar y almacenar la data del individuo en la base de datos. <br><br>
+<p>La primera función es la función insertar, representada en el botón con el símbolo de más. A través de esta función será posible insertar y almacenar la data del individuo en la base de datos. <br>
 Los pasos para insertar data son: <br>
   1. Insertar toda la información del individuo en los lugares correspondientes.<br>
   2. Hacer click en el botón de insertar.
@@ -57,7 +57,7 @@ Los pasos para insertar data son: <br>
 <hr>
 
 ### Función buscar
-<p>La función buscar, representada por el botón con una lupa, permitirá buscar toda la información referente a un individuo a través del número de ID referente al mismo. <br><br>
+<p>La función buscar, representada por el botón con una lupa, permitirá buscar toda la información referente a un individuo a través del número de ID referente al mismo. <br>
 Los pasos para buscar la data de un individuo son:<br>
   1. Insertar el número de ID del individuo a buscar.<br>
   2. Hacer click en el botón de buscar
@@ -79,6 +79,7 @@ Los pasos para buscar la data de un individuo son:<br>
 
 <p>Como se puede observar, se trató de buscar el ID 09, el cual no se encuentra dentro de la base de datos, apareciendo un mensaje en la parte inferior de la pantalla que informa que ese registro no fue encontrado.</p>
 <br>
+
 <hr>
 
 ### Función eliminar
@@ -93,9 +94,34 @@ En estos casos, aparecerá el siguiente mensaje:
 
 ![Eliminar](https://github.com/bianny1107/Colectordatos/blob/master/app/images/eliminar.png)
 
-<p>Así luce la base de datos después del proceso de eliminación del ID 05:</p>
+<p>Así luce la base de datos después del proceso de eliminación de todos los números de identificación, menos el 01:</p>
 
 ![Base de datos eliminar](https://github.com/bianny1107/Colectordatos/blob/master/app/images/basedatoseliminar.png)
+
+<br>
+<hr>
+
+### Función modificar
+<p>La función modificar, representada por el botón con la imagen de un lápiz, permmite modificar cualquier información relacionada con ID previamente almacenado en la base de datos. <br>
+Los pasos para modificar la información relacionada con un ID son: <br>
+  1. Insertar el número de ID que desea modificarse, para que aparezca la información en los campos correspondientes. <br>
+  2. Modificar la información deseada. <br>
+  3. Hacer click en el botón modificar. <br><br>
+
+En esta imagen, podemos apreciar que, al modificar un elemento de la base de datos, se mostrará un mensaje en la parte inferior de la pantalla que informa que el registro ha sido modificado exitosamente. 
+</p>
+
+![Modificar](https://github.com/bianny1107/Colectordatos/blob/master/app/images/modificar.png)
+
+<br>
+
+<p>Para comprobar que los cambios se hayan hechos, podemos comparar cómo lucen ambas bases de datos antes y después de la modificación</p>
+
+<p align = "center">
+  <img src = "https://github.com/bianny1107/Colectordatos/blob/master/app/images/basedatoseliminar.png" alt= "Base antes" width = 45%/>
+  <img src = "https://github.com/bianny1107/Colectordatos/blob/master/app/images/basedatosmodificar.png" alt= "Base después" width = 45%/>
+</p>
+<br>
 
 ## 👤Autoría
 <p>Bianny Michelle Peña Rosario, 2022-0443</p>
