@@ -24,7 +24,7 @@ El objetivo de este ejercicio es poner en práctica los conocimientos adquiridos
 ## 📱 Interfaz
 <p>A continuación, se presenta la interfaz de usuario de la aplicación de recolección de datos.</p>
 
-![Interfaz](https://github.com/bianny1107/Colectordatos/blob/master/app/images/insertar.png)
+![Interfaz](https://github.com/bianny1107/Colectordatos/blob/master/app/images/interfaz.png)
 
 <br>
 
@@ -54,11 +54,12 @@ Los pasos para insertar data son: <br>
 ![Mensaje insertar 2](https://github.com/bianny1107/Colectordatos/blob/master/app/images/mensajeinsertar2.png)
 
 <br>
+<hr>
 
 ### Función buscar
 <p>La función buscar, representada por el botón con una lupa, permitirá buscar toda la información referente a un individuo a través del número de ID referente al mismo. <br><br>
-Los pasos para buscar la data de un individuo son:
-  1. Insertar el número de ID del individuo a buscar.
+Los pasos para buscar la data de un individuo son:<br>
+  1. Insertar el número de ID del individuo a buscar.<br>
   2. Hacer click en el botón de buscar
 </p>
 
@@ -72,10 +73,29 @@ Los pasos para buscar la data de un individuo son:
 <br>
 <p>En caso de que el ID no se encuentre, se mostrará el siguiente mensaje en pantalla:</p>
 
+![Mensaje registro no encontrado](https://github.com/bianny1107/Colectordatos/blob/master/app/images/mensajebuscar.png)
 
+<br>
+
+<p>Como se puede observar, se trató de buscar el ID 09, el cual no se encuentra dentro de la base de datos, apareciendo un mensaje en la parte inferior de la pantalla que informa que ese registro no fue encontrado.</p>
+<br>
+<hr>
 
 ### Función eliminar
-<b>Base de datos</b>
+<p>La función eliminar, representada por el botón con una x de color roja, permite eliminar la información del ID relacionado con un individuo. <br>
+Los pasos para eliminar la data de individuo son: <br>
+  1. Insertar el ID del individuo. <br>
+  2. Hacer click en el botón de eliminar. <br><br>
+En caso de que se desee rectificar que es el data del individuo al que deseamos eliminar, se puede ingresar el ID del individuo, hacer click en buscar y luego hacer click en eliminar. <br><br>
+
+En estos casos, aparecerá el siguiente mensaje:
+</p>
+
+![Eliminar](https://github.com/bianny1107/Colectordatos/blob/master/app/images/eliminar.png)
+
+<p>Así luce la base de datos después del proceso de eliminación del ID 05:</p>
+
+![Base de datos eliminar](https://github.com/bianny1107/Colectordatos/blob/master/app/images/basedatoseliminar.png)
 
 ## 👤Autoría
 <p>Bianny Michelle Peña Rosario, 2022-0443</p>
