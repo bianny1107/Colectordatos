@@ -127,7 +127,7 @@ class MainActivity : ComponentActivity() {
 
             val cant=baseDatos.update("persona", registro, "id='$id'", null)
 
-            if(cant0){
+            if(cant>0){
                 Toast.makeText(this, "Registro modificado exitosamente", Toast.LENGTH_LONG).show()
             }else{
                 Toast.makeText(this, "Registro no encotrado", Toast.LENGTH_LONG).show()
