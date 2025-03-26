@@ -30,7 +30,7 @@ El objetivo de este ejercicio es poner en práctica los conocimientos adquiridos
 
 ## ⚙️ Funcionamiento
 ### Función insertar
-<p>La primera función es la función insertar, representada en el botón con el símbolo de más. A través de esta función será posible insertar y almacenar la data del individuo en la base de datos. <br>
+<p>La función insertar, representada en el botón con el símbolo de más, permite insertar y almacenar la data del individuo en la base de datos. <br>
 Los pasos para insertar data son: <br>
   1. Insertar toda la información del individuo en los lugares correspondientes.<br>
   2. Hacer click en el botón de insertar.
